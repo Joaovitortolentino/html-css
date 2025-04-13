@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+div.forma{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 0px 15px;
+    display: inline-block;
+}
+
+#q1{
+    background-color: aquamarine;
+}
+
+#q2{
+    background-image: linear-gradient(to top, red, yellow);
+}
+
+#q3{
+    background-image: url(pattern001.png);
+}
+
+body{
+    background-image: url(wallpaper002.jpg);
+}
