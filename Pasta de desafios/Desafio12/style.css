@@ -13,7 +13,7 @@ header{
 }
 
 header h1{
-    font: normal normal 5em 'Passion One';
+    font: normal normal 6em 'Passion One';
     color: white;
     text-align: center;
     padding: 60px 0px 0px 0px;
@@ -34,4 +34,27 @@ header a{
 header a:hover{
     text-decoration: underline;
     color: blue;
+}
+
+.sem{
+    font: normal normal 28px 'Sriracha';
+    margin: 35px 0px 0px 50px;
+}
+
+#imagem1{
+    height: 700px;
+    background: white url(imagens/background001.jpg) no-repeat;
+    background-size: cover;
+}
+
+#fundo{
+    background-color: black;
+    width: 430px;
+    margin: 10px 0px 0px 50px;
+}
+#primeiro{
+    font: normal normal 28px 'Sriracha';
+    color: white;
+    margin: 70px 0px 0px 50px;
+    padding: 160px 0px 0px 0px;
 }
