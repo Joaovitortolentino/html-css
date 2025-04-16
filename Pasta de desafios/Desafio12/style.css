@@ -5,56 +5,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Passion+One:wght@400;700;900&family=Rubik+Glitch&family=Sriracha&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 header{
-    height: 300px;
-    width: 100%;
     background-color: black;
-    margin: auto;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
 }
 
 header h1{
-    font: normal normal 6em 'Passion One';
+    font: normal normal 5em 'Passion One';
+    font-variant: small-caps;
     color: white;
-    text-align: center;
-    padding: 60px 0px 0px 0px;
+    
 }
 
 header p{
     font: normal normal 1em 'Sriracha';
-    color: white;
-    text-align: center;
-    margin: -30px 0px;
+    color: rgb(226, 226, 226);
 }
 
 header a{
+    color: rgb(243, 243, 243);
     text-decoration: none;
-    color: white;
+    font: bold normal 1em 'Sriracha';
 }
 
 header a:hover{
+    color: red;
     text-decoration: underline;
-    color: blue;
-}
-
-.sem{
-    font: normal normal 28px 'Sriracha';
-    margin: 35px 0px 0px 50px;
-}
-
-#imagem1{
-    height: 700px;
-    background: white url(imagens/background001.jpg) no-repeat;
-    background-size: cover;
-}
-
-#fundo{
-    background-color: black;
-    width: 430px;
-    margin: 10px 0px 0px 50px;
-}
-#primeiro{
-    font: normal normal 28px 'Sriracha';
-    color: white;
-    margin: 70px 0px 0px 50px;
-    padding: 160px 0px 0px 0px;
 }
