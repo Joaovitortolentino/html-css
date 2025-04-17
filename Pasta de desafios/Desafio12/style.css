@@ -10,14 +10,18 @@
     padding: 0px;
 }
 
+main{
+    background-color: rgb(224, 224, 224);
+}
 header{
     background-color: black;
     padding: 50px 0px 50px 0px;
     text-align: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.329);
 }
 
 header h1{
-    font: normal normal 5em 'Passion One';
+    font: normal normal 10vw 'Passion One';
     font-variant: small-caps;
     color: white;
     
@@ -37,4 +41,45 @@ header a{
 header a:hover{
     color: red;
     text-decoration: underline;
+}
+
+section{
+    padding: 80px 0px;
+}
+
+section p{
+    font: normal normal 3vw 'Sriracha';
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.295);
+    color: white;
+    margin-left: 20px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.normal{
+    
+}
+
+.imagem{
+    background-color: darkgray;
+    box-shadow: inset 5px 10px 15px rgba(0, 0, 0, 0.658);
+}
+
+#um{
+    background: darkgray url(imagens/background001.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#dois{
+    background: darkgray url(imagens/background002.jpg) no-repeat right center;
+    background-attachment: fixed;
 }
