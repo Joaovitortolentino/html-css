@@ -83,3 +83,22 @@ section.imagem > p{
     background: darkgray url(imagens/background002.jpg) no-repeat right center;
     background-attachment: fixed;
 }
+
+footer{
+    padding: 10px 0px;
+    background-color: black;
+    font: normal normal 1em 'Arial';
+    color: rgb(231, 231, 231);
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: red;
+    text-decoration: underline;
+}
