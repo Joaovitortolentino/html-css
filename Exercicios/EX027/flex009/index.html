@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <style>
+        div.container{
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-start;
+            background-color: lightsalmon;
+        }
+
+        div.itens{
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            flex-basis: 160px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="itens" id="i1">A</div>
+        <div class="itens" id="i2">Esse é um exemplo</div>
+        <div class="itens" id="i3">C</div>
+        <div class="itens" id="i4">Esse é um exemplo de texto grande</div>
+        <div class="itens" id="i5">E</div>
+        <div class="itens" id="i6">E esse é um exemplo de texto muito mais grande!"</div>
+    </div>
+</body>
+</html>
