@@ -19,6 +19,7 @@ p{
 
 h1, h2{
     margin-bottom: 20px;
+    line-height: 1.2em;
 }
 
 header, footer{
@@ -57,7 +58,7 @@ header, footer{
 .img > img{
     display: block;
     margin: auto;
-    width: 300px;
+    width: 400px;
     padding: 20px;
 }
 
